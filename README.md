@@ -2,12 +2,12 @@
 
 ## Description
 
-This project, is made to make me learn the bascis of HttpClient.
+This project, is made to make me learn the basics of HttpClient.
 
 
 ## Project Usage
 
-This project will also be used as protfoli and api for futur project.
+This project will also be used as portfolio and api for future project.
 
 
 ## TODO
@@ -29,6 +29,27 @@ Login,
 Register,
 Admin Panel (Show some stat about the server status, cached user, every registred user, ...).
 ```
+
+#### Commit Rule:
+```
+Enhance the current commit rule (See below for further more information).
+```
+
+## Commit Rule:
+
+### [*\<commit_type\>*] - *\<commit_message\>*.
+
+### ADD:
+Indicate that a feature has been added to the project.
+
+### UPDATE:
+Indicate that a feature was updated
+
+### REMOVE:
+Indicate that a feature has been removed from the project. (Should explain why)
+
+### FIX:
+Indicate that a feature was fixed. (Should explain what the issue was and how the fix happend)
 
 ## License
 
