@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id("com.github.johnrengelman.shadow") version "8.1.1"
+}
+
+group = 'fr.eris'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly "org.projectlombok:lombok:1.18.36"
+    annotationProcessor "org.projectlombok:lombok:1.18.36"
+    compileOnly 'org.jetbrains:annotations:26.0.1'
+    implementation 'org.jline:jline:3.28.0'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+shadowJar {
+    manifest {
+        attributes(
+            "Manifest-Version": 1.0,
+            "Main-Class": "fr.eris.Main",
+        )
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

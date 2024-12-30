@@ -1,0 +1,1016 @@
+08:38:48 PM | Input controller successfully loaded.
+08:38:48 PM | +---+
+08:38:48 PM | Arguments help:
+08:38:48 PM |   Help
+08:38:48 PM |    |-- Description --> Use the show help over every registered process argument.
+08:38:48 PM |   WebServerPort
+08:38:48 PM |    |-- Description --> The port for the web server.
+08:38:48 PM |    |- Default Value ->  8080
+08:38:48 PM | +---+
+08:38:48 PM | Argument system successfully loaded.
+08:38:48 PM | Loading web server.
+08:38:48 PM | Loading route: Route{/}
+08:38:48 PM | Loading route: Route{/other}
+08:38:48 PM | Loading route: Route{/style/style.css}
+08:38:48 PM | Web application successfully loaded.
+08:38:53 PM | Input controller successfully loaded.
+08:38:53 PM | +---+
+08:38:53 PM | Arguments help:
+08:38:53 PM |   Help
+08:38:53 PM |    |-- Description --> Use the show help over every registered process argument.
+08:38:53 PM |   WebServerPort
+08:38:53 PM |    |-- Description --> The port for the web server.
+08:38:53 PM |    |- Default Value ->  8080
+08:38:53 PM | +---+
+08:38:53 PM | Argument system successfully loaded.
+08:38:53 PM | Loading web server.
+08:38:53 PM | Loading route: Route{/}
+08:38:53 PM | Loading route: Route{/other}
+08:38:53 PM | Loading route: Route{/style/style.css}
+08:38:53 PM | Web application successfully loaded.
+08:38:58 PM | Input controller successfully loaded.
+08:38:58 PM | +---+
+08:38:58 PM | Arguments help:
+08:38:58 PM |   Help
+08:38:58 PM |    |-- Description --> Use the show help over every registered process argument.
+08:38:58 PM |   WebServerPort
+08:38:58 PM |    |-- Description --> The port for the web server.
+08:38:58 PM |    |- Default Value ->  8080
+08:38:58 PM | +---+
+08:38:58 PM | Argument system successfully loaded.
+08:38:58 PM | Loading web server.
+08:38:58 PM | Loading route: Route{/}
+08:38:58 PM | Loading route: Route{/other}
+08:38:58 PM | Loading route: Route{/style/style.css}
+08:38:58 PM | Web application successfully loaded.
+08:39:38 PM | Input controller successfully loaded.
+08:39:38 PM | +---+
+08:39:38 PM | Arguments help:
+08:39:38 PM |   Help
+08:39:38 PM |    |-- Description --> Use the show help over every registered process argument.
+08:39:38 PM |   WebServerPort
+08:39:38 PM |    |-- Description --> The port for the web server.
+08:39:38 PM |    |- Default Value ->  8080
+08:39:38 PM | +---+
+08:39:38 PM | Argument system successfully loaded.
+08:39:38 PM | Loading web server.
+08:39:38 PM | Loading route: Route{/}
+08:39:38 PM | Loading route: Route{/other}
+08:39:38 PM | Loading route: Route{/style/style.css}
+08:39:38 PM | Web application successfully loaded.
+08:39:38 PM | Command system successfully loaded.
+08:39:38 PM | Finish loading of ErisWebsite !
+08:39:38 PM | ErisWebApplication started on port: 12345
+08:39:43 PM | Admin Input: 'stop'
+08:39:47 PM | Admin Input: 'test'
+08:39:47 PM | Invalid command name: 'test'
+08:39:51 PM | Admin Input: 'stop'
+08:45:07 PM | Input controller successfully loaded.
+08:45:07 PM | +---+
+08:45:07 PM | Arguments help:
+08:45:07 PM |   Help
+08:45:07 PM |    |-- Description --> Use the show help over every registered process argument.
+08:45:07 PM |   WebServerPort
+08:45:07 PM |    |-- Description --> The port for the web server.
+08:45:07 PM |    |- Default Value ->  8080
+08:45:07 PM | +---+
+08:45:07 PM | Argument system successfully loaded.
+08:45:07 PM | Loading web server.
+08:45:07 PM | Loading route: Route{/}
+08:45:07 PM | Loading route: Route{/other}
+08:45:07 PM | Loading route: Route{/style/style.css}
+08:45:07 PM | Web application successfully loaded.
+08:45:07 PM | Command system successfully loaded.
+08:45:07 PM | Finish loading of ErisWebsite !
+08:45:07 PM | ErisWebApplication started on port: 12345
+08:45:07 PM | Start waiting for user input.
+08:45:08 PM | Admin Input: 'stop'
+08:45:08 PM | Stopping web server.
+08:45:08 PM | ErisWebsite successfully stopped.
+08:57:54 PM | Input controller successfully loaded.
+08:57:54 PM | +---+
+08:57:54 PM | Arguments help:
+08:57:54 PM |   Help
+08:57:54 PM |    |-- Description --> Use the show help over every registered process argument.
+08:57:54 PM |   WebServerPort
+08:57:54 PM |    |-- Description --> The port for the web server.
+08:57:54 PM |    |- Default Value ->  8080
+08:57:54 PM | +---+
+08:57:54 PM | Argument system successfully loaded.
+08:57:54 PM | Loading web server.
+08:57:54 PM | Loading route: Route{/}
+08:57:54 PM | Loading route: Route{/other}
+08:57:54 PM | Loading route: Route{/style/style.css}
+08:57:54 PM | Web application successfully loaded.
+08:57:54 PM | Command system successfully loaded.
+08:57:54 PM | Finish loading of ErisWebsite !
+08:57:54 PM | ErisWebApplication started on port: 12345
+08:57:54 PM | Start waiting for user input.
+08:59:33 PM | Input controller successfully loaded.
+08:59:33 PM | +---+
+08:59:33 PM | Arguments help:
+08:59:33 PM |   Help
+08:59:33 PM |    |-- Description --> Use the show help over every registered process argument.
+08:59:33 PM |   WebServerPort
+08:59:33 PM |    |-- Description --> The port for the web server.
+08:59:33 PM |    |- Default Value ->  8080
+08:59:33 PM | +---+
+08:59:33 PM | Argument system successfully loaded.
+08:59:33 PM | Loading web server.
+08:59:33 PM | Loading route: Route{/}
+08:59:33 PM | Loading route: Route{/other}
+08:59:33 PM | Loading route: Route{/style/style.css}
+08:59:33 PM | Web application successfully loaded.
+08:59:33 PM | Command system successfully loaded.
+08:59:33 PM | Finish loading of ErisWebsite !
+08:59:33 PM | ErisWebApplication started on port: 12345
+08:59:33 PM | Start waiting for user input.
+08:59:54 PM | Input controller successfully loaded.
+08:59:54 PM | +---+
+08:59:54 PM | Arguments help:
+08:59:54 PM |   Help
+08:59:54 PM |    |-- Description --> Use the show help over every registered process argument.
+08:59:54 PM |   WebServerPort
+08:59:54 PM |    |-- Description --> The port for the web server.
+08:59:54 PM |    |- Default Value ->  8080
+08:59:54 PM | +---+
+08:59:54 PM | Argument system successfully loaded.
+08:59:54 PM | Loading web server.
+08:59:54 PM | Loading route: Route{/}
+08:59:54 PM | Loading route: Route{/other}
+08:59:54 PM | Loading route: Route{/style/style.css}
+08:59:54 PM | Web application successfully loaded.
+08:59:54 PM | Command system successfully loaded.
+08:59:54 PM | Finish loading of ErisWebsite !
+08:59:54 PM | ErisWebApplication started on port: 12345
+08:59:54 PM | Start waiting for user input.
+09:01:49 PM | Input controller successfully loaded.
+09:01:49 PM | +---+
+09:01:49 PM | Arguments help:
+09:01:49 PM |   Help
+09:01:49 PM |    |-- Description --> Use the show help over every registered process argument.
+09:01:49 PM |   WebServerPort
+09:01:49 PM |    |-- Description --> The port for the web server.
+09:01:49 PM |    |- Default Value ->  8080
+09:01:49 PM | +---+
+09:01:49 PM | Argument system successfully loaded.
+09:01:50 PM | Loading web server.
+09:01:50 PM | Loading route: Route{/}
+09:01:50 PM | Loading route: Route{/other}
+09:01:50 PM | Loading route: Route{/style/style.css}
+09:01:50 PM | Web application successfully loaded.
+09:01:50 PM | Command system successfully loaded.
+09:01:50 PM | Finish loading of ErisWebsite !
+09:01:50 PM | ErisWebApplication started on port: 12345
+09:01:50 PM | Start waiting for user input.
+09:05:57 PM | INFO | Input controller successfully loaded.
+09:05:57 PM | INFO | +---+
+09:05:57 PM | INFO | Arguments help:
+09:05:57 PM | INFO |   Help
+09:05:57 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:05:57 PM | INFO |   WebServerPort
+09:05:57 PM | INFO |    |-- Description --> The port for the web server.
+09:05:57 PM | INFO |    |- Default Value ->  8080
+09:05:57 PM | INFO | +---+
+09:05:57 PM | INFO | Argument system successfully loaded.
+09:05:57 PM | INFO | Loading web server.
+09:05:57 PM | INFO | Loading route: Route{/}
+09:05:57 PM | INFO | Loading route: Route{/other}
+09:05:57 PM | INFO | Loading route: Route{/style/style.css}
+09:05:57 PM | INFO | Web application successfully loaded.
+09:05:57 PM | INFO | Command system successfully loaded.
+09:05:57 PM | INFO | Finish loading of ErisWebsite !
+09:05:57 PM | INFO | ErisWebApplication started on port: 12345
+09:05:57 PM | INFO | Start waiting for user input.
+09:05:59 PM | INFO | Admin Input: 'test'
+09:05:59 PM | INFO | Logging as INFO
+09:05:59 PM | WARNING | Logging as WARNING
+09:05:59 PM | SEVERE | Logging as SEVERE
+09:05:59 PM | FINE | Logging as FINE
+09:05:59 PM | FINER | Logging as FINER
+09:05:59 PM | FINEST | Logging as FINEST
+09:05:59 PM | CONFIG | Logging as CONFIG
+09:09:06 PM | INFO | Admin Input: 'stop'
+09:09:06 PM | INFO | Stopping web server.
+09:09:06 PM | INFO | ErisWebsite successfully stopped.
+09:09:07 PM | INFO | Input controller successfully loaded.
+09:09:07 PM | INFO | +---+
+09:09:07 PM | INFO | Arguments help:
+09:09:07 PM | INFO |   Help
+09:09:07 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:09:07 PM | INFO |   WebServerPort
+09:09:07 PM | INFO |    |-- Description --> The port for the web server.
+09:09:07 PM | INFO |    |- Default Value ->  8080
+09:09:07 PM | INFO | +---+
+09:09:07 PM | INFO | Argument system successfully loaded.
+09:09:07 PM | INFO | Loading web server.
+09:09:07 PM | INFO | Loading route: Route{/}
+09:09:07 PM | INFO | Loading route: Route{/other}
+09:09:07 PM | INFO | Loading route: Route{/style/style.css}
+09:09:07 PM | INFO | Web application successfully loaded.
+09:09:07 PM | INFO | Command system successfully loaded.
+09:09:07 PM | INFO | Finish loading of ErisWebsite !
+09:09:07 PM | INFO | ErisWebApplication started on port: 12345
+09:09:07 PM | INFO | Start waiting for user input.
+09:09:09 PM | INFO | Admin Input: 'test'
+09:09:09 PM | INFO | Logging as INFO
+09:09:09 PM | WARNING | Logging as WARNING
+09:09:09 PM | SEVERE | Logging as SEVERE
+09:09:09 PM | FINE | Logging as FINE
+09:09:09 PM | FINER | Logging as FINER
+09:09:09 PM | FINEST | Logging as FINEST
+09:09:09 PM | CONFIG | Logging as CONFIG
+09:10:07 PM | INFO | Admin Input: 'stop'
+09:10:07 PM | INFO | Stopping web server.
+09:10:07 PM | INFO | ErisWebsite successfully stopped.
+09:10:08 PM | INFO | Input controller successfully loaded.
+09:10:08 PM | INFO | +---+
+09:10:08 PM | INFO | Arguments help:
+09:10:08 PM | INFO |   Help
+09:10:08 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:10:08 PM | INFO |   WebServerPort
+09:10:08 PM | INFO |    |-- Description --> The port for the web server.
+09:10:08 PM | INFO |    |- Default Value ->  8080
+09:10:08 PM | INFO | +---+
+09:10:08 PM | INFO | Argument system successfully loaded.
+09:10:09 PM | INFO | Loading web server.
+09:10:09 PM | INFO | Loading route: Route{/}
+09:10:09 PM | INFO | Loading route: Route{/other}
+09:10:09 PM | INFO | Loading route: Route{/style/style.css}
+09:10:09 PM | INFO | Web application successfully loaded.
+09:10:09 PM | INFO | Command system successfully loaded.
+09:10:09 PM | INFO | Finish loading of ErisWebsite !
+09:10:09 PM | INFO | ErisWebApplication started on port: 12345
+09:10:09 PM | INFO | Start waiting for user input.
+09:10:39 PM | INFO | Admin Input: 'stop'
+09:10:39 PM | INFO | Stopping web server.
+09:10:39 PM | INFO | ErisWebsite successfully stopped.
+09:10:40 PM | INFO | Input controller successfully loaded.
+09:10:40 PM | INFO | +---+
+09:10:40 PM | INFO | Arguments help:
+09:10:40 PM | INFO |   Help
+09:10:40 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:10:40 PM | INFO |   WebServerPort
+09:10:40 PM | INFO |    |-- Description --> The port for the web server.
+09:10:40 PM | INFO |    |- Default Value ->  8080
+09:10:40 PM | INFO | +---+
+09:10:40 PM | INFO | Argument system successfully loaded.
+09:10:40 PM | INFO | Loading web server.
+09:10:40 PM | INFO | Loading route: Route{/}
+09:10:40 PM | INFO | Loading route: Route{/other}
+09:10:40 PM | INFO | Loading route: Route{/style/style.css}
+09:10:40 PM | INFO | Web application successfully loaded.
+09:10:40 PM | INFO | Command system successfully loaded.
+09:10:40 PM | INFO | Finish loading of ErisWebsite !
+09:10:40 PM | INFO | ErisWebApplication started on port: 12345
+09:10:40 PM | INFO | Start waiting for user input.
+09:10:44 PM | INFO | Admin Input: 'test'
+09:10:44 PM | INFO | Logging as INFO
+09:10:44 PM | WARNING | Logging as WARNING
+09:10:44 PM | SEVERE | Logging as SEVERE
+09:10:44 PM | FINE | Logging as FINE
+09:10:44 PM | FINER | Logging as FINER
+09:10:44 PM | FINEST | Logging as FINEST
+09:10:44 PM | CONFIG | Logging as CONFIG
+09:10:59 PM | INFO | Admin Input: 'stop'
+09:10:59 PM | INFO | Stopping web server.
+09:10:59 PM | INFO | ErisWebsite successfully stopped.
+09:11:00 PM | INFO | Input controller successfully loaded.
+09:11:00 PM | INFO | +---+
+09:11:00 PM | INFO | Arguments help:
+09:11:00 PM | INFO |   Help
+09:11:00 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:11:00 PM | INFO |   WebServerPort
+09:11:00 PM | INFO |    |-- Description --> The port for the web server.
+09:11:00 PM | INFO |    |- Default Value ->  8080
+09:11:00 PM | INFO | +---+
+09:11:00 PM | INFO | Argument system successfully loaded.
+09:11:01 PM | INFO | Loading web server.
+09:11:01 PM | INFO | Loading route: Route{/}
+09:11:01 PM | INFO | Loading route: Route{/other}
+09:11:01 PM | INFO | Loading route: Route{/style/style.css}
+09:11:01 PM | INFO | Web application successfully loaded.
+09:11:01 PM | INFO | Command system successfully loaded.
+09:11:01 PM | INFO | Finish loading of ErisWebsite !
+09:11:01 PM | INFO | ErisWebApplication started on port: 12345
+09:11:01 PM | INFO | Start waiting for user input.
+09:11:01 PM | INFO | Admin Input: 'test'
+09:11:01 PM | INFO | Logging as INFO
+09:11:01 PM | WARNING | Logging as WARNING
+09:11:01 PM | SEVERE | Logging as SEVERE
+09:11:01 PM | FINE | Logging as FINE
+09:11:01 PM | FINER | Logging as FINER
+09:11:01 PM | FINEST | Logging as FINEST
+09:11:01 PM | CONFIG | Logging as CONFIG
+09:12:14 PM | INFO | Admin Input: 'stop'
+09:12:14 PM | INFO | Stopping web server.
+09:12:14 PM | INFO | ErisWebsite successfully stopped.
+09:12:15 PM | INFO | Input controller successfully loaded.
+09:12:15 PM | INFO | +---+
+09:12:15 PM | INFO | Arguments help:
+09:12:15 PM | INFO |   Help
+09:12:15 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:12:15 PM | INFO |   WebServerPort
+09:12:15 PM | INFO |    |-- Description --> The port for the web server.
+09:12:15 PM | INFO |    |- Default Value ->  8080
+09:12:15 PM | INFO | +---+
+09:12:15 PM | INFO | Argument system successfully loaded.
+09:12:15 PM | INFO | Loading web server.
+09:12:15 PM | INFO | Loading route: Route{/}
+09:12:15 PM | INFO | Loading route: Route{/other}
+09:12:15 PM | INFO | Loading route: Route{/style/style.css}
+09:12:15 PM | INFO | Web application successfully loaded.
+09:12:15 PM | INFO | Command system successfully loaded.
+09:12:15 PM | INFO | Finish loading of ErisWebsite !
+09:12:15 PM | INFO | ErisWebApplication started on port: 12345
+09:12:15 PM | INFO | Start waiting for user input.
+09:12:17 PM | INFO | Admin Input: 'test'
+09:12:17 PM | INFO | Logging as INFO
+09:12:17 PM | WARNING | Logging as WARNING
+09:12:17 PM | SEVERE | Logging as SEVERE
+09:12:17 PM | FINE | Logging as FINE
+09:12:17 PM | FINER | Logging as FINER
+09:12:17 PM | FINEST | Logging as FINEST
+09:12:17 PM | CONFIG | Logging as CONFIG
+09:12:28 PM | INFO | Admin Input: 'stop'
+09:12:28 PM | INFO | Stopping web server.
+09:12:28 PM | INFO | ErisWebsite successfully stopped.
+09:12:29 PM | INFO | Input controller successfully loaded.
+09:12:29 PM | INFO | +---+
+09:12:29 PM | INFO | Arguments help:
+09:12:29 PM | INFO |   Help
+09:12:29 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:12:29 PM | INFO |   WebServerPort
+09:12:29 PM | INFO |    |-- Description --> The port for the web server.
+09:12:29 PM | INFO |    |- Default Value ->  8080
+09:12:29 PM | INFO | +---+
+09:12:29 PM | INFO | Argument system successfully loaded.
+09:12:29 PM | INFO | Loading web server.
+09:12:29 PM | INFO | Loading route: Route{/}
+09:12:29 PM | INFO | Loading route: Route{/other}
+09:12:29 PM | INFO | Loading route: Route{/style/style.css}
+09:12:29 PM | INFO | Web application successfully loaded.
+09:12:29 PM | INFO | Command system successfully loaded.
+09:12:29 PM | INFO | Finish loading of ErisWebsite !
+09:12:29 PM | INFO | ErisWebApplication started on port: 12345
+09:12:29 PM | INFO | Start waiting for user input.
+09:12:30 PM | INFO | Admin Input: 'test'
+09:12:30 PM | INFO | Logging as INFO
+09:12:30 PM | WARNING | Logging as WARNING
+09:12:30 PM | SEVERE | Logging as SEVERE
+09:12:30 PM | FINE | Logging as FINE
+09:12:30 PM | FINER | Logging as FINER
+09:12:30 PM | FINEST | Logging as FINEST
+09:12:30 PM | CONFIG | Logging as CONFIG
+09:12:41 PM | INFO | Admin Input: 'stop'
+09:12:41 PM | INFO | Stopping web server.
+09:12:41 PM | INFO | ErisWebsite successfully stopped.
+09:12:46 PM | INFO | Input controller successfully loaded.
+09:12:46 PM | INFO | +---+
+09:12:46 PM | INFO | Arguments help:
+09:12:46 PM | INFO |   Help
+09:12:46 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:12:46 PM | INFO |   WebServerPort
+09:12:46 PM | INFO |    |-- Description --> The port for the web server.
+09:12:46 PM | INFO |    |- Default Value ->  8080
+09:12:46 PM | INFO | +---+
+09:12:46 PM | INFO | Argument system successfully loaded.
+09:12:46 PM | INFO | Loading web server.
+09:12:46 PM | INFO | Loading route: Route{/}
+09:12:46 PM | INFO | Loading route: Route{/other}
+09:12:46 PM | INFO | Loading route: Route{/style/style.css}
+09:12:46 PM | INFO | Web application successfully loaded.
+09:12:46 PM | INFO | Command system successfully loaded.
+09:12:46 PM | INFO | Finish loading of ErisWebsite !
+09:12:46 PM | INFO | ErisWebApplication started on port: 12345
+09:12:46 PM | INFO | Start waiting for user input.
+09:12:48 PM | INFO | Admin Input: 'test'
+09:12:48 PM | INFO | Logging as INFO
+09:12:48 PM | WARNING | Logging as WARNING
+09:12:48 PM | SEVERE | Logging as SEVERE
+09:12:48 PM | FINE | Logging as FINE
+09:12:48 PM | FINER | Logging as FINER
+09:12:48 PM | FINEST | Logging as FINEST
+09:12:48 PM | CONFIG | Logging as CONFIG
+09:13:22 PM | INFO | Admin Input: 'stop'
+09:13:22 PM | INFO | Stopping web server.
+09:13:22 PM | INFO | ErisWebsite successfully stopped.
+09:13:24 PM | INFO | Input controller successfully loaded.
+09:13:24 PM | INFO | +---+
+09:13:24 PM | INFO | Arguments help:
+09:13:24 PM | INFO |   Help
+09:13:24 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:13:24 PM | INFO |   WebServerPort
+09:13:24 PM | INFO |    |-- Description --> The port for the web server.
+09:13:24 PM | INFO |    |- Default Value ->  8080
+09:13:24 PM | INFO | +---+
+09:13:24 PM | INFO | Argument system successfully loaded.
+09:13:24 PM | INFO | Loading web server.
+09:13:24 PM | INFO | Loading route: Route{/}
+09:13:24 PM | INFO | Loading route: Route{/other}
+09:13:24 PM | INFO | Loading route: Route{/style/style.css}
+09:13:24 PM | INFO | Web application successfully loaded.
+09:13:24 PM | INFO | Command system successfully loaded.
+09:13:24 PM | INFO | Finish loading of ErisWebsite !
+09:13:24 PM | INFO | ErisWebApplication started on port: 12345
+09:13:24 PM | INFO | Start waiting for user input.
+09:13:25 PM | INFO | Admin Input: 'test'
+09:13:25 PM | INFO | Logging as INFO
+09:13:25 PM | WARNING | Logging as WARNING
+09:13:25 PM | SEVERE | Logging as SEVERE
+09:13:25 PM | FINE | Logging as FINE
+09:13:25 PM | FINER | Logging as FINER
+09:13:25 PM | FINEST | Logging as FINEST
+09:13:25 PM | CONFIG | Logging as CONFIG
+09:21:50 PM | INFO | Admin Input: 'stop'
+09:21:50 PM | INFO | Stopping web server.
+09:21:50 PM | INFO | ErisWebsite successfully stopped.
+09:21:51 PM | INFO | Input controller successfully loaded.
+09:21:51 PM | INFO | +---+
+09:21:51 PM | INFO | Arguments help:
+09:21:51 PM | INFO |   Help
+09:21:51 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:21:51 PM | INFO |   WebServerPort
+09:21:51 PM | INFO |    |-- Description --> The port for the web server.
+09:21:51 PM | INFO |    |- Default Value ->  8080
+09:21:51 PM | INFO | +---+
+09:21:51 PM | INFO | Argument system successfully loaded.
+09:21:52 PM | INFO | Loading web server.
+09:21:52 PM | INFO | Loading route: Route{/}
+09:21:52 PM | INFO | Loading route: Route{/other}
+09:21:52 PM | INFO | Loading route: Route{/style/style.css}
+09:21:52 PM | INFO | Web application successfully loaded.
+09:21:52 PM | INFO | Command system successfully loaded.
+09:21:52 PM | INFO | Finish loading of ErisWebsite !
+09:21:52 PM | INFO | ErisWebApplication started on port: 12345
+09:21:52 PM | INFO | Start waiting for user input.
+09:21:53 PM | INFO | Admin Input: 'test'
+09:21:53 PM | INFO | Logging as INFO
+09:21:53 PM | WARNING | Logging as WARNING
+09:21:53 PM | SEVERE | Logging as SEVERE
+09:21:53 PM | FINE | Logging as FINE
+09:21:53 PM | FINER | Logging as FINER
+09:21:53 PM | FINEST | Logging as FINEST
+09:21:53 PM | CONFIG | Logging as CONFIG
+09:22:16 PM | INFO | {/} - Request to '/' from '/127.0.0.1'
+
+09:22:16 PM | INFO | {/style/style.css} - Request to '/style/style.css' from '/127.0.0.1'
+
+09:22:16 PM | INFO | {/style/style.css} - Request to '/style/style.css' from '/127.0.0.1'
+
+09:22:22 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:25:26 PM | INFO | Admin Input: 'test'
+09:25:26 PM | INFO | Logging as INFO
+09:25:26 PM | WARNING | Logging as WARNING
+09:25:26 PM | SEVERE | Logging as SEVERE
+09:25:26 PM | FINE | Logging as FINE
+09:25:26 PM | FINER | Logging as FINER
+09:25:26 PM | FINEST | Logging as FINEST
+09:25:26 PM | CONFIG | Logging as CONFIG
+09:25:27 PM | INFO | Admin Input: 'testy'
+09:25:27 PM | INFO | Invalid command name: 'testy'
+09:25:29 PM | INFO | Admin Input: 'efwe'
+09:25:29 PM | INFO | Invalid command name: 'efwe'
+09:25:29 PM | INFO | Admin Input: 'fw'
+09:25:29 PM | INFO | Invalid command name: 'fw'
+09:25:29 PM | INFO | Admin Input: 'ef'
+09:25:29 PM | INFO | Invalid command name: 'ef'
+09:40:12 PM | INFO | Admin Input: 'stop'
+09:40:12 PM | INFO | Stopping web server.
+09:40:12 PM | INFO | ErisWebsite successfully stopped.
+09:42:24 PM | INFO | Input controller successfully loaded.
+09:42:24 PM | INFO | +---+
+09:42:24 PM | INFO | Arguments help:
+09:42:24 PM | INFO |   Help
+09:42:24 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:42:24 PM | INFO |   WebServerPort
+09:42:24 PM | INFO |    |-- Description --> The port for the web server.
+09:42:24 PM | INFO |    |- Default Value ->  8080
+09:42:24 PM | INFO | +---+
+09:42:24 PM | INFO | Argument system successfully loaded.
+09:42:24 PM | INFO | Loading web server.
+09:42:24 PM | INFO | Loading route: Route{/}
+09:42:24 PM | INFO | Loading route: Route{/other}
+09:42:24 PM | INFO | Loading route: Route{/style/style.css}
+09:42:24 PM | INFO | Web application successfully loaded.
+09:42:24 PM | INFO | Command system successfully loaded.
+09:42:24 PM | INFO | Finish loading of ErisWebsite !
+09:42:24 PM | INFO | ErisWebApplication started on port: 12345
+09:42:24 PM | INFO | Start waiting for user input.
+09:42:26 PM | INFO | Admin Input: 'stop'
+09:42:26 PM | INFO | Stopping web server...
+09:42:26 PM | INFO | Web is now server stopped.
+09:42:26 PM | INFO | Closing input controller...
+09:42:26 PM | INFO | Input controller closed.
+09:42:26 PM | INFO | ErisWebsite successfully stopped.
+09:42:28 PM | INFO | Input controller successfully loaded.
+09:42:28 PM | INFO | +---+
+09:42:28 PM | INFO | Arguments help:
+09:42:28 PM | INFO |   Help
+09:42:28 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:42:28 PM | INFO |   WebServerPort
+09:42:28 PM | INFO |    |-- Description --> The port for the web server.
+09:42:28 PM | INFO |    |- Default Value ->  8080
+09:42:28 PM | INFO | +---+
+09:42:28 PM | INFO | Argument system successfully loaded.
+09:42:28 PM | INFO | Loading web server.
+09:42:28 PM | INFO | Loading route: Route{/}
+09:42:28 PM | INFO | Loading route: Route{/other}
+09:42:28 PM | INFO | Loading route: Route{/style/style.css}
+09:42:28 PM | INFO | Web application successfully loaded.
+09:42:28 PM | INFO | Command system successfully loaded.
+09:42:28 PM | INFO | Finish loading of ErisWebsite !
+09:42:28 PM | INFO | ErisWebApplication started on port: 12345
+09:42:28 PM | INFO | Start waiting for user input.
+09:42:33 PM | INFO | {/} - Request to '/' from '/127.0.0.1'
+
+09:42:33 PM | INFO | {/style/style.css} - Request to '/style/style.css' from '/127.0.0.1'
+
+09:42:33 PM | INFO | {/style/style.css} - Request to '/style/style.css' from '/127.0.0.1'
+
+09:42:33 PM | INFO | {/} - Request to '/favicon.ico' from '/127.0.0.1'
+
+09:42:38 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:42:41 PM | INFO | Admin Input: 'stop'
+09:42:41 PM | INFO | Stopping web server...
+09:42:41 PM | INFO | Web is now server stopped.
+09:42:41 PM | INFO | Closing input controller...
+09:42:41 PM | INFO | Input controller closed.
+09:42:41 PM | INFO | ErisWebsite successfully stopped.
+09:44:12 PM | INFO | Input controller successfully loaded.
+09:44:12 PM | INFO | +---+
+09:44:12 PM | INFO | Arguments help:
+09:44:12 PM | INFO |   Help
+09:44:12 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:44:12 PM | INFO |   WebServerPort
+09:44:12 PM | INFO |    |-- Description --> The port for the web server.
+09:44:12 PM | INFO |    |- Default Value ->  8080
+09:44:12 PM | INFO | +---+
+09:44:12 PM | INFO | Argument system successfully loaded.
+09:44:12 PM | INFO | Loading web server.
+09:44:12 PM | INFO | Loading route: Route{/}
+09:44:12 PM | INFO | Loading route: Route{/other}
+09:44:12 PM | INFO | Loading route: Route{/style/style.css}
+09:44:12 PM | INFO | Web application successfully loaded.
+09:44:12 PM | INFO | Command system successfully loaded.
+09:44:12 PM | INFO | Finish loading of ErisWebsite !
+09:44:12 PM | INFO | ErisWebApplication started on port: 12345
+09:44:12 PM | INFO | Start waiting for user input.
+09:44:14 PM | INFO | Admin Input: 'stop'
+09:44:14 PM | INFO | Stopping web server...
+09:44:14 PM | INFO | Web is now server stopped.
+09:44:14 PM | INFO | Closing input controller...
+09:44:14 PM | INFO | Input controller closed.
+09:44:14 PM | INFO | ErisWebsite successfully stopped.
+09:44:16 PM | INFO | Input controller successfully loaded.
+09:44:16 PM | INFO | +---+
+09:44:16 PM | INFO | Arguments help:
+09:44:16 PM | INFO |   Help
+09:44:16 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:44:16 PM | INFO |   WebServerPort
+09:44:16 PM | INFO |    |-- Description --> The port for the web server.
+09:44:16 PM | INFO |    |- Default Value ->  8080
+09:44:16 PM | INFO | +---+
+09:44:16 PM | INFO | Argument system successfully loaded.
+09:44:16 PM | INFO | Loading web server.
+09:44:16 PM | INFO | Loading route: Route{/}
+09:44:16 PM | INFO | Loading route: Route{/other}
+09:44:16 PM | INFO | Loading route: Route{/style/style.css}
+09:44:16 PM | INFO | Web application successfully loaded.
+09:44:16 PM | INFO | Command system successfully loaded.
+09:44:16 PM | INFO | Finish loading of ErisWebsite !
+09:44:16 PM | INFO | ErisWebApplication started on port: 12345
+09:44:16 PM | INFO | Start waiting for user input.
+09:44:17 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:44:21 PM | INFO | Admin Input: 'stop'
+09:44:21 PM | INFO | Stopping web server...
+09:44:21 PM | INFO | Web is now server stopped.
+09:44:21 PM | INFO | Closing input controller...
+09:44:21 PM | INFO | Input controller closed.
+09:44:21 PM | INFO | ErisWebsite successfully stopped.
+09:45:24 PM | INFO | Input controller successfully loaded.
+09:45:24 PM | INFO | +---+
+09:45:24 PM | INFO | Arguments help:
+09:45:24 PM | INFO |   Help
+09:45:24 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:45:24 PM | INFO |   WebServerPort
+09:45:24 PM | INFO |    |-- Description --> The port for the web server.
+09:45:24 PM | INFO |    |- Default Value ->  8080
+09:45:24 PM | INFO | +---+
+09:45:24 PM | INFO | Argument system successfully loaded.
+09:45:24 PM | INFO | Loading web server.
+09:45:24 PM | INFO | Loading route: Route{/}
+09:45:24 PM | INFO | Loading route: Route{/other}
+09:45:24 PM | INFO | Loading route: Route{/style/style.css}
+09:45:24 PM | INFO | Web application successfully loaded.
+09:45:24 PM | INFO | Command system successfully loaded.
+09:45:24 PM | INFO | Finish loading of ErisWebsite !
+09:45:24 PM | INFO | ErisWebApplication started on port: 12345
+09:45:24 PM | INFO | Start waiting for user input.
+09:45:26 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:45:30 PM | INFO | Admin Input: 'stop'
+09:45:30 PM | INFO | Stopping web server...
+09:45:30 PM | INFO | Web is now server stopped.
+09:45:30 PM | INFO | Closing input controller...
+09:45:30 PM | INFO | Input controller closed.
+09:45:30 PM | INFO | ErisWebsite successfully stopped.
+09:50:38 PM | INFO | Input controller successfully loaded.
+09:50:38 PM | INFO | +---+
+09:50:38 PM | INFO | Arguments help:
+09:50:38 PM | INFO |   Help
+09:50:38 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:50:38 PM | INFO |   WebServerPort
+09:50:38 PM | INFO |    |-- Description --> The port for the web server.
+09:50:38 PM | INFO |    |- Default Value ->  8080
+09:50:38 PM | INFO | +---+
+09:50:38 PM | INFO | Argument system successfully loaded.
+09:50:38 PM | INFO | Loading web server.
+09:50:38 PM | INFO | Loading route: Route{/}
+09:50:38 PM | INFO | Loading route: Route{/other}
+09:50:38 PM | INFO | Loading route: Route{/style/style.css}
+09:50:38 PM | INFO | Web application successfully loaded.
+09:50:38 PM | INFO | Command system successfully loaded.
+09:50:38 PM | INFO | Finish loading of ErisWebsite !
+09:50:38 PM | INFO | ErisWebApplication started on port: 12345
+09:50:38 PM | INFO | Start waiting for user input.
+09:50:41 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:50:43 PM | INFO | Admin Input: 'stop'
+09:50:43 PM | INFO | Stopping web server...
+09:50:43 PM | INFO | Web is now server stopped.
+09:50:43 PM | INFO | Closing input controller...
+09:50:43 PM | INFO | Input controller closed.
+09:50:43 PM | INFO | ErisWebsite successfully stopped.
+09:51:07 PM | INFO | Input controller successfully loaded.
+09:51:07 PM | INFO | +---+
+09:51:07 PM | INFO | Arguments help:
+09:51:07 PM | INFO |   Help
+09:51:07 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:51:07 PM | INFO |   WebServerPort
+09:51:07 PM | INFO |    |-- Description --> The port for the web server.
+09:51:07 PM | INFO |    |- Default Value ->  8080
+09:51:07 PM | INFO | +---+
+09:51:07 PM | INFO | Argument system successfully loaded.
+09:51:07 PM | INFO | Loading web server.
+09:51:07 PM | INFO | Loading route: Route{/}
+09:51:07 PM | INFO | Loading route: Route{/other}
+09:51:07 PM | INFO | Loading route: Route{/style/style.css}
+09:51:07 PM | INFO | Web application successfully loaded.
+09:51:07 PM | INFO | Command system successfully loaded.
+09:51:07 PM | INFO | Finish loading of ErisWebsite !
+09:51:07 PM | INFO | ErisWebApplication started on port: 12345
+09:51:07 PM | INFO | Start waiting for user input.
+09:51:10 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:51:10 PM | INFO | {/} - Request to '/favicon.ico' from '/127.0.0.1'
+
+09:51:12 PM | INFO | Admin Input: 'stp['
+09:51:12 PM | INFO | Invalid command name: 'stp['
+09:51:14 PM | INFO | Admin Input: 'stop'
+09:51:14 PM | INFO | Stopping web server...
+09:51:14 PM | INFO | Web is now server stopped.
+09:51:14 PM | INFO | Closing input controller...
+09:51:14 PM | INFO | Input controller closed.
+09:51:14 PM | SEVERE | Successfully stopped the server.
+09:51:14 PM | INFO | ErisWebsite successfully stopped.
+09:51:48 PM | INFO | Input controller successfully loaded.
+09:51:48 PM | INFO | +---+
+09:51:48 PM | INFO | Arguments help:
+09:51:48 PM | INFO |   Help
+09:51:48 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:51:48 PM | INFO |   WebServerPort
+09:51:48 PM | INFO |    |-- Description --> The port for the web server.
+09:51:48 PM | INFO |    |- Default Value ->  8080
+09:51:48 PM | INFO | +---+
+09:51:48 PM | INFO | Argument system successfully loaded.
+09:51:48 PM | INFO | Loading web server.
+09:51:48 PM | INFO | Loading route: Route{/}
+09:51:48 PM | INFO | Loading route: Route{/other}
+09:51:48 PM | INFO | Loading route: Route{/style/style.css}
+09:51:48 PM | INFO | Web application successfully loaded.
+09:51:48 PM | INFO | Command system successfully loaded.
+09:51:48 PM | INFO | Finish loading of ErisWebsite !
+09:51:48 PM | INFO | ErisWebApplication started on port: 12345
+09:51:48 PM | INFO | Start waiting for user input.
+09:51:52 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:51:52 PM | INFO | {/} - Request to '/favicon.ico' from '/127.0.0.1'
+
+09:51:53 PM | INFO | Admin Input: 'stop'
+09:51:53 PM | INFO | Stopping web server...
+09:51:53 PM | INFO | Web is now server stopped.
+09:51:53 PM | INFO | Closing input controller...
+09:51:53 PM | INFO | 1.
+09:51:53 PM | INFO | 2.
+09:51:53 PM | INFO | Input controller closed.
+09:51:53 PM | INFO | Successfully stopped the server.
+09:51:53 PM | INFO | ErisWebsite successfully stopped.
+09:52:24 PM | INFO | Input controller successfully loaded.
+09:52:24 PM | INFO | +---+
+09:52:24 PM | INFO | Arguments help:
+09:52:24 PM | INFO |   Help
+09:52:24 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:52:24 PM | INFO |   WebServerPort
+09:52:24 PM | INFO |    |-- Description --> The port for the web server.
+09:52:24 PM | INFO |    |- Default Value ->  8080
+09:52:24 PM | INFO | +---+
+09:52:24 PM | INFO | Argument system successfully loaded.
+09:52:24 PM | INFO | Loading web server.
+09:52:24 PM | INFO | Loading route: Route{/}
+09:52:24 PM | INFO | Loading route: Route{/other}
+09:52:24 PM | INFO | Loading route: Route{/style/style.css}
+09:52:24 PM | INFO | Web application successfully loaded.
+09:52:24 PM | INFO | Command system successfully loaded.
+09:52:24 PM | INFO | Finish loading of ErisWebsite !
+09:52:24 PM | INFO | ErisWebApplication started on port: 12345
+09:52:24 PM | INFO | Start waiting for user input.
+09:52:26 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:52:28 PM | INFO | Admin Input: 'stop'
+09:52:28 PM | INFO | Stopping web server...
+09:52:28 PM | INFO | Web is now server stopped.
+09:52:28 PM | INFO | Closing input controller...
+09:52:28 PM | INFO | 1.
+09:52:28 PM | INFO | 2.
+09:52:28 PM | INFO | Input controller closed.
+09:52:28 PM | INFO | Successfully stopped the server.
+09:52:28 PM | INFO | ErisWebsite successfully stopped.
+09:52:44 PM | INFO | Input controller successfully loaded.
+09:52:44 PM | INFO | +---+
+09:52:44 PM | INFO | Arguments help:
+09:52:44 PM | INFO |   Help
+09:52:44 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:52:44 PM | INFO |   WebServerPort
+09:52:44 PM | INFO |    |-- Description --> The port for the web server.
+09:52:44 PM | INFO |    |- Default Value ->  8080
+09:52:44 PM | INFO | +---+
+09:52:44 PM | INFO | Argument system successfully loaded.
+09:52:44 PM | INFO | Loading web server.
+09:52:44 PM | INFO | Loading route: Route{/}
+09:52:44 PM | INFO | Loading route: Route{/other}
+09:52:44 PM | INFO | Loading route: Route{/style/style.css}
+09:52:44 PM | INFO | Web application successfully loaded.
+09:52:44 PM | INFO | Command system successfully loaded.
+09:52:44 PM | INFO | Finish loading of ErisWebsite !
+09:52:44 PM | INFO | ErisWebApplication started on port: 12345
+09:52:44 PM | INFO | Start waiting for user input.
+09:52:46 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:52:48 PM | INFO | Admin Input: 'stop'
+09:52:48 PM | INFO | Stopping web server...
+09:52:48 PM | INFO | Web is now server stopped.
+09:52:48 PM | INFO | Closing input controller...
+09:52:48 PM | INFO | 1.
+09:52:48 PM | INFO | 2.
+09:52:48 PM | INFO | Input controller closed.
+09:52:48 PM | INFO | Successfully stopped the server.
+09:52:48 PM | INFO | ErisWebsite successfully stopped.
+09:56:45 PM | INFO | Input controller successfully loaded.
+09:56:45 PM | INFO | +---+
+09:56:45 PM | INFO | Arguments help:
+09:56:45 PM | INFO |   Help
+09:56:45 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:56:45 PM | INFO |   WebServerPort
+09:56:45 PM | INFO |    |-- Description --> The port for the web server.
+09:56:45 PM | INFO |    |- Default Value ->  8080
+09:56:45 PM | INFO | +---+
+09:56:45 PM | INFO | Argument system successfully loaded.
+09:56:45 PM | INFO | Loading web server.
+09:56:45 PM | INFO | Loading route: Route{/}
+09:56:45 PM | INFO | Loading route: Route{/other}
+09:56:45 PM | INFO | Loading route: Route{/style/style.css}
+09:56:45 PM | INFO | Web application successfully loaded.
+09:56:45 PM | INFO | Command system successfully loaded.
+09:56:45 PM | INFO | Finish loading of ErisWebsite !
+09:56:45 PM | INFO | ErisWebApplication started on port: 12345
+09:56:45 PM | INFO | Start waiting for user input.
+09:56:49 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:56:51 PM | INFO | Admin Input: 'stop'
+09:56:51 PM | INFO | Stopping web server...
+09:56:51 PM | INFO | Web is now server stopped.
+09:56:51 PM | INFO | Closing input controller...
+09:56:51 PM | INFO | 1.
+09:56:51 PM | INFO | 2.
+09:56:51 PM | INFO | Input controller closed.
+09:56:51 PM | INFO | Successfully stopped the server.
+09:56:51 PM | INFO | ErisWebsite successfully stopped.
+09:59:04 PM | INFO | Input controller successfully loaded.
+09:59:04 PM | INFO | +---+
+09:59:04 PM | INFO | Arguments help:
+09:59:04 PM | INFO |   Help
+09:59:04 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+09:59:04 PM | INFO |   WebServerPort
+09:59:04 PM | INFO |    |-- Description --> The port for the web server.
+09:59:04 PM | INFO |    |- Default Value ->  8080
+09:59:04 PM | INFO | +---+
+09:59:04 PM | INFO | Argument system successfully loaded.
+09:59:04 PM | INFO | Loading web server.
+09:59:04 PM | INFO | Loading route: Route{/}
+09:59:04 PM | INFO | Loading route: Route{/other}
+09:59:04 PM | INFO | Loading route: Route{/style/style.css}
+09:59:04 PM | INFO | Web application successfully loaded.
+09:59:04 PM | INFO | Command system successfully loaded.
+09:59:04 PM | INFO | Finish loading of ErisWebsite !
+09:59:04 PM | INFO | ErisWebApplication started on port: 12345
+09:59:04 PM | INFO | Start waiting for user input.
+09:59:04 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+09:59:06 PM | INFO | Admin Input: 'stop'
+09:59:06 PM | INFO | Stopping web server...
+09:59:06 PM | INFO | Web is now server stopped.
+09:59:06 PM | INFO | Closing input controller...
+09:59:06 PM | INFO | 1.
+09:59:06 PM | INFO | 2.
+09:59:06 PM | INFO | Input controller closed.
+09:59:06 PM | INFO | Successfully stopped the server.
+09:59:06 PM | INFO | ErisWebsite successfully stopped.
+10:00:01 PM | INFO | Input controller successfully loaded.
+10:00:01 PM | INFO | +---+
+10:00:01 PM | INFO | Arguments help:
+10:00:01 PM | INFO |   Help
+10:00:01 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+10:00:01 PM | INFO |   WebServerPort
+10:00:01 PM | INFO |    |-- Description --> The port for the web server.
+10:00:01 PM | INFO |    |- Default Value ->  8080
+10:00:01 PM | INFO | +---+
+10:00:01 PM | INFO | Argument system successfully loaded.
+10:00:01 PM | INFO | Loading web server.
+10:00:01 PM | INFO | Loading route: Route{/}
+10:00:01 PM | INFO | Loading route: Route{/other}
+10:00:01 PM | INFO | Loading route: Route{/style/style.css}
+10:00:01 PM | INFO | Web application successfully loaded.
+10:00:01 PM | INFO | Command system successfully loaded.
+10:00:01 PM | INFO | Finish loading of ErisWebsite !
+10:00:01 PM | INFO | ErisWebApplication started on port: 12345
+10:00:01 PM | INFO | Start waiting for user input.
+10:00:03 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+10:00:05 PM | INFO | Admin Input: 'stop'
+10:00:05 PM | INFO | Stopping web server...
+10:00:05 PM | INFO | Web is now server stopped.
+10:00:05 PM | INFO | Closing input controller...
+10:00:05 PM | INFO | 1.
+10:00:05 PM | INFO | 2.
+10:00:05 PM | INFO | Input controller closed.
+10:00:05 PM | INFO | Successfully stopped the server.
+10:00:05 PM | INFO | ErisWebsite successfully stopped.
+10:00:08 PM | INFO | Input controller successfully loaded.
+10:00:08 PM | INFO | +---+
+10:00:08 PM | INFO | Arguments help:
+10:00:08 PM | INFO |   Help
+10:00:08 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+10:00:08 PM | INFO |   WebServerPort
+10:00:08 PM | INFO |    |-- Description --> The port for the web server.
+10:00:08 PM | INFO |    |- Default Value ->  8080
+10:00:08 PM | INFO | +---+
+10:00:08 PM | INFO | Argument system successfully loaded.
+10:00:08 PM | INFO | Loading web server.
+10:00:08 PM | INFO | Loading route: Route{/}
+10:00:08 PM | INFO | Loading route: Route{/other}
+10:00:08 PM | INFO | Loading route: Route{/style/style.css}
+10:00:08 PM | INFO | Web application successfully loaded.
+10:00:08 PM | INFO | Command system successfully loaded.
+10:00:08 PM | INFO | Finish loading of ErisWebsite !
+10:00:08 PM | INFO | ErisWebApplication started on port: 12345
+10:00:08 PM | INFO | Start waiting for user input.
+10:00:09 PM | INFO | {/other} - Request to '/other' from '/127.0.0.1'
+
+10:00:11 PM | INFO | Admin Input: 'stop'
+10:00:11 PM | INFO | Stopping web server...
+10:00:11 PM | INFO | Web is now server stopped.
+10:00:11 PM | INFO | Closing input controller...
+10:00:11 PM | INFO | 1.
+10:00:11 PM | INFO | 2.
+10:00:11 PM | INFO | Input controller closed.
+10:00:11 PM | INFO | Successfully stopped the server.
+10:00:11 PM | INFO | ErisWebsite successfully stopped.
+10:00:16 PM | INFO | Input controller successfully loaded.
+10:00:16 PM | INFO | +---+
+10:00:16 PM | INFO | Arguments help:
+10:00:16 PM | INFO |   Help
+10:00:16 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+10:00:16 PM | INFO |   WebServerPort
+10:00:16 PM | INFO |    |-- Description --> The port for the web server.
+10:00:16 PM | INFO |    |- Default Value ->  8080
+10:00:16 PM | INFO | +---+
+10:00:16 PM | INFO | Argument system successfully loaded.
+10:00:16 PM | INFO | Loading web server.
+10:00:16 PM | INFO | Loading route: Route{/}
+10:00:16 PM | INFO | Loading route: Route{/other}
+10:00:16 PM | INFO | Loading route: Route{/style/style.css}
+10:00:16 PM | INFO | Web application successfully loaded.
+10:00:16 PM | INFO | Command system successfully loaded.
+10:00:16 PM | INFO | Finish loading of ErisWebsite !
+10:00:16 PM | INFO | ErisWebApplication started on port: 12345
+10:00:16 PM | INFO | Start waiting for user input.
+10:00:47 PM | INFO | Admin Input: 'stop'
+10:00:47 PM | INFO | Stopping web server...
+10:00:47 PM | INFO | Web is now server stopped.
+10:00:47 PM | INFO | Closing input controller...
+10:00:47 PM | INFO | 1.
+10:00:47 PM | INFO | 2.
+10:00:47 PM | INFO | Input controller closed.
+10:00:47 PM | INFO | Successfully stopped the server.
+10:00:47 PM | INFO | ErisWebsite successfully stopped.
+10:00:48 PM | INFO | Input controller successfully loaded.
+10:00:48 PM | INFO | +---+
+10:00:48 PM | INFO | Arguments help:
+10:00:48 PM | INFO |   Help
+10:00:48 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+10:00:48 PM | INFO |   WebServerPort
+10:00:49 PM | INFO |    |-- Description --> The port for the web server.
+10:00:49 PM | INFO |    |- Default Value ->  8080
+10:00:49 PM | INFO | +---+
+10:00:49 PM | INFO | Argument system successfully loaded.
+10:00:49 PM | INFO | Loading web server.
+10:00:49 PM | INFO | Loading route: Route{/}
+10:00:49 PM | INFO | Loading route: Route{/other}
+10:00:49 PM | INFO | Loading route: Route{/style/style.css}
+10:00:49 PM | INFO | Web application successfully loaded.
+10:00:49 PM | INFO | Command system successfully loaded.
+10:00:49 PM | INFO | Finish loading of ErisWebsite !
+10:00:49 PM | INFO | ErisWebApplication started on port: 12345
+10:00:49 PM | INFO | Start waiting for user input.
+10:00:50 PM | INFO | Admin Input: 'stop'
+10:00:50 PM | INFO | Stopping web server...
+10:00:50 PM | INFO | Web is now server stopped.
+10:00:50 PM | INFO | Closing input controller...
+10:00:50 PM | INFO | Input controller closed.
+10:00:50 PM | INFO | Successfully stopped the server.
+10:00:50 PM | INFO | ErisWebsite successfully stopped.
+10:00:56 PM | INFO | Input controller successfully loaded.
+10:00:56 PM | INFO | +---+
+10:00:56 PM | INFO | Arguments help:
+10:00:56 PM | INFO |   Help
+10:00:56 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+10:00:56 PM | INFO |   WebServerPort
+10:00:56 PM | INFO |    |-- Description --> The port for the web server.
+10:00:56 PM | INFO |    |- Default Value ->  8080
+10:00:56 PM | INFO | +---+
+10:00:56 PM | INFO | Argument system successfully loaded.
+10:00:56 PM | INFO | Loading web server.
+10:00:56 PM | INFO | Loading route: Route{/}
+10:00:56 PM | INFO | Loading route: Route{/other}
+10:00:56 PM | INFO | Loading route: Route{/style/style.css}
+10:00:56 PM | INFO | Web application successfully loaded.
+10:00:56 PM | INFO | Command system successfully loaded.
+10:00:56 PM | INFO | Finish loading of ErisWebsite !
+10:00:56 PM | INFO | ErisWebApplication started on port: 12345
+10:00:56 PM | INFO | Start waiting for user input.
+10:01:12 PM | INFO | Admin Input: 'stop'
+10:01:12 PM | INFO | Stopping web server...
+10:01:12 PM | INFO | Web is now server stopped.
+10:01:12 PM | INFO | Closing input controller...
+10:01:12 PM | INFO | Input controller closed.
+10:01:12 PM | INFO | Successfully stopped the server.
+10:01:12 PM | INFO | ErisWebsite successfully stopped.
+10:01:14 PM | INFO | Input controller successfully loaded.
+10:01:14 PM | INFO | +---+
+10:01:14 PM | INFO | Arguments help:
+10:01:14 PM | INFO |   Help
+10:01:14 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+10:01:14 PM | INFO |   WebServerPort
+10:01:14 PM | INFO |    |-- Description --> The port for the web server.
+10:01:14 PM | INFO |    |- Default Value ->  8080
+10:01:14 PM | INFO | +---+
+10:01:14 PM | INFO | Argument system successfully loaded.
+10:01:14 PM | INFO | Loading web server.
+10:01:14 PM | INFO | Loading route: Route{/}
+10:01:14 PM | INFO | Loading route: Route{/other}
+10:01:14 PM | INFO | Loading route: Route{/style/style.css}
+10:01:14 PM | INFO | Web application successfully loaded.
+10:01:14 PM | INFO | Command system successfully loaded.
+10:01:14 PM | INFO | Finish loading of ErisWebsite !
+10:01:14 PM | INFO | ErisWebApplication started on port: 12345
+10:01:14 PM | INFO | Start waiting for user input.
+10:01:15 PM | INFO | Admin Input: 'stop'
+10:01:15 PM | INFO | Stopping web server...
+10:01:15 PM | INFO | Web is now server stopped.
+10:01:15 PM | INFO | Closing input controller...
+10:01:15 PM | INFO | Input controller closed.
+10:01:15 PM | INFO | Successfully stopped the server.
+10:01:15 PM | INFO | ErisWebsite successfully stopped.
+10:01:20 PM | INFO | Input controller successfully loaded.
+10:01:20 PM | INFO | +---+
+10:01:20 PM | INFO | Arguments help:
+10:01:20 PM | INFO |   Help
+10:01:20 PM | INFO |    |-- Description --> Use the show help over every registered process argument.
+10:01:20 PM | INFO |   WebServerPort
+10:01:20 PM | INFO |    |-- Description --> The port for the web server.
+10:01:20 PM | INFO |    |- Default Value ->  8080
+10:01:20 PM | INFO | +---+
+10:01:20 PM | INFO | Argument system successfully loaded.
+10:01:20 PM | INFO | Loading web server.
+10:01:20 PM | INFO | Loading route: Route{/}
+10:01:20 PM | INFO | Loading route: Route{/other}
+10:01:20 PM | INFO | Loading route: Route{/style/style.css}
+10:01:20 PM | INFO | Web application successfully loaded.
+10:01:20 PM | INFO | Command system successfully loaded.
+10:01:20 PM | INFO | Finish loading of ErisWebsite !
+10:01:20 PM | INFO | ErisWebApplication started on port: 12345
+10:01:20 PM | INFO | Start waiting for user input.
