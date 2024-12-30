@@ -5,17 +5,18 @@ import lombok.Getter;
 
 import java.util.Collection;
 
+@Getter
 public abstract class BaseProcArgument<T> implements IProcArgument<T>
 {
-    @Getter private final String name;
-    @Getter private final boolean nameCaseSensitive;
+    private final String name;
+    private final boolean nameCaseSensitive;
 
-    @Getter private final String description;
-    @Getter private final Collection<String> choices;
+    private final String description;
+    private final Collection<String> choices;
 
-    @Getter private final boolean required;
-    @Getter private final boolean valueRequired;
-    @Getter private final T defaultValue;
+    private final boolean required;
+    private final boolean valueRequired;
+    private final T defaultValue;
 
     protected BaseProcArgument(String name, boolean nameCaseSensitive,
                                String description, Collection<String> choices,

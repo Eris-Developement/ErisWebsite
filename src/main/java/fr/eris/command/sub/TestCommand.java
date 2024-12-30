@@ -7,10 +7,7 @@ import fr.eris.command.base.BaseCommand;
 import fr.eris.command.base.CommandExecutionData;
 import fr.eris.controller.command.ICommandController;
 import fr.eris.controller.logger.LoggerController;
-import org.jline.reader.Candidate;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

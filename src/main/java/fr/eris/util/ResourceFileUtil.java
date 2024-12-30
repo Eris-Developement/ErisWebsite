@@ -1,5 +1,7 @@
 package fr.eris.util;
 
+import fr.eris.controller.logger.LoggerController;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -31,7 +33,7 @@ public class ResourceFileUtil
                 content.append(line).append("\n");
             }
         } catch (IOException exception) {
-            exception.printStackTrace();
+            LoggerController.DEFAULT.severef("Unable to open get file content.\n%s", exception.toString());
             return null;
         }
         return content.toString();

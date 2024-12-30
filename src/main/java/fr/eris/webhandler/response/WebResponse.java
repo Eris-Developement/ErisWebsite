@@ -4,13 +4,14 @@ import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+@Getter
 public class WebResponse implements IWebResponse
 {
-    @Getter @NotNull private final Code code;
-    @Getter @NotNull private final String message;
+    @NotNull private final Code code;
+    @NotNull private final String message;
 
-    @Getter private final int messageLength;
-    @Getter private final byte @NotNull[] messageBytes;
+    private final int messageLength;
+    private final byte @NotNull[] messageBytes;
 
     private WebResponse(@NotNull Code code,
                         @Nullable String message) {

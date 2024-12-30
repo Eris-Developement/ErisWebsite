@@ -3,6 +3,7 @@ package fr.eris.application;
 import com.sun.net.httpserver.HttpServer;
 import fr.eris.ErisWebsite;
 import fr.eris.controller.logger.LoggerController;
+import fr.eris.exception.server.ServerLoadException;
 import fr.eris.webhandler.IWebHandler;
 import fr.eris.exception.server.ServerNotLoadedException;
 import fr.eris.exception.server.ServerNotStartedException;
@@ -22,7 +23,7 @@ public class ErisWebApplication implements IErisWebApplication
     @Getter private ApplicationState state;
     @Getter private ExecutorService executor;
 
-    private ErisWebsite erisInstance;
+    @Getter private ErisWebsite erisInstance;
 
     public ErisWebApplication() {
         this.state = ApplicationState.STOPPED;
@@ -41,6 +42,10 @@ public class ErisWebApplication implements IErisWebApplication
     public void load(ErisWebsite erisInstance) throws IOException {
         this.erisInstance = erisInstance;
         this.server = HttpServer.create();
+        if (this.server == null) {
+            LoggerController.DEFAULT.severe("Failed to load the http server instance.");
+            throw new ServerLoadException();
+        }
         LoggerController.DEFAULT.info("Loading web server.");
         this.state = ApplicationState.LOADING;
 

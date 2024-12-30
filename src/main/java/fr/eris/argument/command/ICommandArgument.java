@@ -6,7 +6,6 @@ import org.jetbrains.annotations.Nullable;
 import org.jline.reader.Candidate;
 
 import java.util.Collection;
-import java.util.List;
 
 public interface ICommandArgument<T>
 {

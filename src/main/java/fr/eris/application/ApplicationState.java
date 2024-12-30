@@ -4,5 +4,5 @@ public enum ApplicationState
 {
     LOADING, LOADED,
     STARTING, STARTED,
-    STOPPING, STOPPED;
+    STOPPING, STOPPED
 }

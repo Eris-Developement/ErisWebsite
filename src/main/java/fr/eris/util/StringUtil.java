@@ -1,6 +1,5 @@
 package fr.eris.util;
 
-import fr.eris.controller.logger.LoggerController;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.*;

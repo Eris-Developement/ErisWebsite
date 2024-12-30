@@ -5,14 +5,14 @@ import fr.eris.controller.logger.LoggerController;
 import fr.eris.webhandler.IWebHandler;
 import fr.eris.webhandler.response.IWebResponse;
 import lombok.Getter;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 import java.io.OutputStream;
 
+@Getter
 public abstract class BaseWebHandler implements IWebHandler
 {
-    @Getter private final String route;
+    private final String route;
 
     public BaseWebHandler(String route) {
         this.route = route;

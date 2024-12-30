@@ -5,13 +5,14 @@ import fr.eris.webhandler.sub.PageWebHandler;
 import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 
+@Getter
 public enum WebRoute
 {
     ROOT(PageWebHandler.create("/", "web/index.html")),
     OTHER(PageWebHandler.create("/other", "web/other.html")),
     STYLE(PageWebHandler.create("/style/style.css", "web/style/style.css"));
 
-    @Getter @NotNull private final IWebHandler handler;
+    @NotNull private final IWebHandler handler;
 
     WebRoute(@NotNull IWebHandler handler) {
         this.handler = handler;

@@ -5,16 +5,17 @@ import lombok.Getter;
 
 import java.util.Collection;
 
+@Getter
 public class StringProcArgument extends BaseProcArgument<String>
 {
-    @Getter private final boolean isDefaultValueSet;
+    private final boolean defaultValueSet;
 
     public StringProcArgument(String name, boolean nameCaseSensitive,
                               String description, Collection<String> choices,
                               boolean required, boolean valueRequired) {
         super(name, nameCaseSensitive, description, choices,
                 required, valueRequired, null);
-        this.isDefaultValueSet = false;
+        this.defaultValueSet = false;
     }
 
     public StringProcArgument(String name, boolean nameCaseSensitive,
@@ -23,7 +24,7 @@ public class StringProcArgument extends BaseProcArgument<String>
                               String defaultValue) {
         super(name, nameCaseSensitive, description, choices,
                 required, valueRequired, defaultValue);
-        this.isDefaultValueSet = true;
+        this.defaultValueSet = true;
     }
 
     @Override
