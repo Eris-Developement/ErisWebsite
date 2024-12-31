@@ -10,14 +10,3 @@ document.addEventListener('DOMContentLoaded', () => {
         starsContainer.appendChild(star);
     }
 });
-
-window.addEventListener('scroll', function() {
-    const footer = document.querySelector('.site-footer');
-
-    // When scrolled down more than 100px, show the footer
-    if (window.scrollY > 100) {
-        footer.classList.add('visible');
-    } else {
-        footer.classList.remove('visible');
-    }
-});
