@@ -1,12 +1,12 @@
 package fr.eris.handler.web.sub.page;
 
-import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.function.Function;
 
 public enum PageType
 {
+    ICO,
     CSS((string) ->
             string.replaceAll("/\\*[^*]*\\*+([^/*][^*]*\\*+)*/", "")
                   .replaceAll("\\s*([{}:;,])\\s*", "$1")
