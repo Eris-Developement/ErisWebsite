@@ -8,6 +8,7 @@ import java.util.function.Function;
 public enum PageType
 {
     CSS,
+    JS,
     HTML((string) -> string.replaceAll(">(//s+)<", "><"));
 
     @Nullable private final Function<String, String> condenseFunction;
