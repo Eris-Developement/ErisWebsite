@@ -40,4 +40,12 @@ public class ResourceFileUtil
         }
         return content.toString();
     }
+
+    public static @Nullable String getHttpFile(@NotNull String pathToIndexPage) {
+        String httpFileContent = getFileContent(pathToIndexPage);
+
+        for ()
+
+        return httpFileContent;
+    }
 }
