@@ -1,7 +1,6 @@
 package fr.eris.controller.input;
 
 import fr.eris.ErisWebsite;
-import lombok.Getter;
 import org.jline.reader.LineReader;
 
 import java.io.IOException;
@@ -16,7 +15,7 @@ public interface IInputController
     boolean isClosed();
 
     boolean isListening();
-    void listen() throws IOException;
+    void listen();
 
     void processNewInput(String input);
 

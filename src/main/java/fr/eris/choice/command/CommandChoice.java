@@ -1,19 +1,17 @@
 package fr.eris.choice.command;
 
-import fr.eris.command.ICommand;
-import fr.eris.util.StringUtil;
 import lombok.Getter;
-import lombok.Setter;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.jline.reader.Candidate;
 
+@Getter
 public class CommandChoice implements ICommandChoice
 {
 
-    @Getter private final @NotNull String value;
-    @Getter private final @NotNull String display;
-    @Getter private final @Nullable String description;
+    private final @NotNull String value;
+    private final @NotNull String display;
+    private final @Nullable String description;
 
     private CommandChoice(@NotNull String value,
                           @Nullable String display,

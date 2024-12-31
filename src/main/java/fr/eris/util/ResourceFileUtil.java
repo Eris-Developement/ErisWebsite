@@ -1,9 +1,10 @@
 package fr.eris.util;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import fr.eris.controller.logger.LoggerController;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 
 public class ResourceFileUtil
@@ -19,7 +20,7 @@ public class ResourceFileUtil
         return stream;
     }
 
-    public static String getFileContent(String path) {
+    public static @Nullable String getFileContent(@NotNull String path) {
         StringBuilder content = new StringBuilder();
 
         try (InputStream stream = getStream(path);
@@ -31,9 +32,25 @@ public class ResourceFileUtil
                 content.append(line).append("\n");
             }
         } catch (IOException exception) {
-            exception.printStackTrace();
+            LoggerController.DEFAULT.severef("Unable to open get file content.\n%s", exception.toString());
             return null;
         }
         return content.toString();
+    }
+
+    public static byte[] getFileBytes(String path) {
+        try (InputStream stream = getStream(path);
+             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();) {
+
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+            while ((bytesRead = stream.read(buffer)) != -1) {
+                byteArrayOutputStream.write(buffer, 0, bytesRead);
+            }
+            return byteArrayOutputStream.toByteArray();
+        } catch (IOException exception) {
+            LoggerController.DEFAULT.severef("Unable to open get file bytes.\n%s", exception.toString());
+            return null;
+        }
     }
 }

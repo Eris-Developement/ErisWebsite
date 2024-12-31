@@ -56,7 +56,7 @@ public class InputController implements IInputController
         LoggerController.DEFAULT.info("Input controller closed.");
     }
 
-    public void listen() throws IOException {
+    public void listen() {
         if (!loaded)
             throw new InputControllerNotLoadedException();
         if (closed)

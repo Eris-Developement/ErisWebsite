@@ -1,6 +1,5 @@
 package fr.eris.choice.command;
 
-import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 import org.jline.reader.Candidate;
 

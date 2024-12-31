@@ -12,17 +12,21 @@ import fr.eris.controller.input.IInputController;
 import fr.eris.controller.input.InputController;
 import fr.eris.controller.logger.ILoggerController;
 import fr.eris.controller.logger.LoggerController;
+import fr.eris.controller.web.IWebController;
+import fr.eris.controller.web.WebController;
 import lombok.Getter;
 
 import java.io.IOException;
 
 public class ErisWebsite
 {
-    @Getter private IProcessArgumentController argumentController;
     @Getter private IErisWebApplication webApplication;
+
+    @Getter private IProcessArgumentController argumentController;
     @Getter private IInputController inputController;
     @Getter private ILoggerController loggerController;
     @Getter private ICommandController commandController;
+    @Getter private IWebController webController;
 
     private final IProcArgument<Short> WEB_SERVER_PORT_ARGUMENT = new ShortProcArgument("WebServerPort", false,
             "The port for the web server.", null, false, true, (short)8080);
@@ -54,8 +58,12 @@ public class ErisWebsite
         argumentLoading(args);
         LoggerController.DEFAULT.info("Argument system successfully loaded.");
 
+        webController = new WebController();
+        webController.load(this);
+        LoggerController.DEFAULT.info("Web application successfully loaded.");
+
         webApplication = new ErisWebApplication();
-        webApplication.load(this);
+        webApplication.load(this, webController);
         LoggerController.DEFAULT.info("Web application successfully loaded.");
 
         commandController = new CommandController();

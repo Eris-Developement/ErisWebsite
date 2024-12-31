@@ -5,16 +5,17 @@ import lombok.Getter;
 
 import java.util.Collection;
 
+@Getter
 public class ShortProcArgument extends BaseProcArgument<Short>
 {
-    @Getter private final boolean isDefaultValueSet;
+    private final boolean defaultValueSet;
 
     public ShortProcArgument(String name, boolean nameCaseSensitive,
                              String description, Collection<String> choices,
                              boolean required, boolean valueRequired) {
         super(name, nameCaseSensitive, description, choices,
                 required, valueRequired, null);
-        this.isDefaultValueSet = false;
+        this.defaultValueSet = false;
     }
 
     public ShortProcArgument(String name, boolean nameCaseSensitive,
@@ -23,7 +24,7 @@ public class ShortProcArgument extends BaseProcArgument<Short>
                              Short defaultValue) {
         super(name, nameCaseSensitive, description, choices,
                 required, valueRequired, defaultValue);
-        this.isDefaultValueSet = true;
+        this.defaultValueSet = true;
     }
 
     @Override

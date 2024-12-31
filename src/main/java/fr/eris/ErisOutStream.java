@@ -50,6 +50,6 @@ public class ErisOutStream extends PrintStream
     }
 
     public void unsafePrint(Object obj) {
-        printStream.printf("[UNSAFE PRINT] - %s", String.valueOf(obj));
+        printStream.print("[UNSAFE PRINT] - " + obj);
     }
 }
