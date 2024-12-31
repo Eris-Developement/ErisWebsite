@@ -1,6 +1,8 @@
 package fr.eris.util;
 
 import fr.eris.controller.logger.LoggerController;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,7 +23,7 @@ public class ResourceFileUtil
         return stream;
     }
 
-    public static String getFileContent(String path) {
+    public static @Nullable String getFileContent(@NotNull String path) {
         StringBuilder content = new StringBuilder();
 
         try (InputStream stream = getStream(path);

@@ -49,7 +49,10 @@ Indicate that a feature was updated
 Indicate that a feature has been removed from the project. (Should explain why)
 
 ### FIX:
-Indicate that a feature was fixed. (Should explain what the issue was and how the fix happend)
+Indicate that a feature was fixed. (Should explain what the issue was and how the fix happened)
+
+### EDIT:
+Indicate that a feature has been edited. (Should explain why and how)
 
 ## License
 

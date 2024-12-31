@@ -3,8 +3,10 @@ package fr.eris.application;
 import com.sun.net.httpserver.HttpServer;
 import fr.eris.ErisWebsite;
 import fr.eris.controller.logger.LoggerController;
+import fr.eris.controller.web.IWebController;
+import fr.eris.controller.web.WebController;
 import fr.eris.exception.server.ServerLoadException;
-import fr.eris.webhandler.IWebHandler;
+import fr.eris.handler.web.IWebHandler;
 import fr.eris.exception.server.ServerNotLoadedException;
 import fr.eris.exception.server.ServerNotStartedException;
 import lombok.Getter;
@@ -20,26 +22,24 @@ public class ErisWebApplication implements IErisWebApplication
 {
     @Nullable private HttpServer server;
 
-    @Getter private ApplicationState state;
+    @Getter private @NotNull ApplicationState state;
     @Getter private ExecutorService executor;
 
     @Getter private ErisWebsite erisInstance;
+
+    private IWebController webController;
 
     public ErisWebApplication() {
         this.state = ApplicationState.STOPPED;
     }
 
     private void loadContext(@NotNull HttpServer server) {
-        @NotNull IWebHandler handler;
-
-        for (@NotNull WebRoute route : WebRoute.values()) {
-            LoggerController.DEFAULT.info("Loading route: " + route);
-            handler = route.getHandler();
-            server.createContext(handler.getRoute(), handler);
-        }
+        LoggerController.DEFAULT.info("Implementing the WebController.");
+        server.createContext("/", webController);
+        LoggerController.DEFAULT.info("WebController is now implemented.");
     }
 
-    public void load(ErisWebsite erisInstance) throws IOException {
+    public void load(@NotNull ErisWebsite erisInstance, @NotNull IWebController webController) throws IOException {
         this.erisInstance = erisInstance;
         this.server = HttpServer.create();
         if (this.server == null) {
@@ -49,6 +49,7 @@ public class ErisWebApplication implements IErisWebApplication
         LoggerController.DEFAULT.info("Loading web server.");
         this.state = ApplicationState.LOADING;
 
+        this.webController = webController;
         loadContext(this.server);
         this.executor = Executors.newSingleThreadExecutor();
         this.server.setExecutor(executor);

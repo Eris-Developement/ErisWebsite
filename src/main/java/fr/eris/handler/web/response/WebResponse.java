@@ -1,4 +1,4 @@
-package fr.eris.webhandler.response;
+package fr.eris.handler.web.response;
 
 import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
@@ -7,7 +7,7 @@ import org.jetbrains.annotations.Nullable;
 @Getter
 public class WebResponse implements IWebResponse
 {
-    @NotNull private final Code code;
+    @NotNull private Code code;
     @NotNull private final String message;
 
     private final int messageLength;
@@ -27,6 +27,13 @@ public class WebResponse implements IWebResponse
 
     public static @NotNull WebResponse of(@NotNull Code code, @Nullable String message) {
         return new WebResponse(code, message);
+    }
+
+    public @NotNull Code setCode(@NotNull Code newCode) {
+        Code oldCode = this.code;
+
+        this.code = newCode;
+        return oldCode;
     }
 
     public static @NotNull WebResponse of(@NotNull Code code) {
