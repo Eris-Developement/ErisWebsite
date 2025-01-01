@@ -33,9 +33,6 @@ public class WebController implements IWebController
         this.state = State.LOADING;
 
         this.server = Javalin.create((config) -> config.staticFiles.add("/web", Location.CLASSPATH));
-        for (WebRoute webRoute : WebRoute.values()) {
-            registerWebHandler(webRoute.getHandler());
-        }
         this.state = State.LOADED;
     }
 
@@ -52,6 +49,9 @@ public class WebController implements IWebController
 
         this.state = State.STARTING;
         this.server.start(webServerPort);
+        for (WebRoute webRoute : WebRoute.values()) {
+            registerWebHandler(webRoute.getHandler());
+        }
         this.state = State.STARTED;
     }
 
