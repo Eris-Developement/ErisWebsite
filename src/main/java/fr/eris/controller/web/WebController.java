@@ -1,48 +1,60 @@
 package fr.eris.controller.web;
 
-import com.sun.net.httpserver.HttpExchange;
 import fr.eris.ErisWebsite;
-import fr.eris.controller.logger.LoggerController;
 import fr.eris.exception.webhandler.WebNotLoadedYetException;
 import fr.eris.handler.web.IWebHandler;
-import fr.eris.handler.web.response.IWebResponse;
-import fr.eris.util.RouteUtil;
+import fr.eris.util.State;
 import fr.eris.util.ValidateThat;
+import io.javalin.Javalin;
+import io.javalin.http.staticfiles.Location;
 import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.io.IOException;
-import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 
 public class WebController implements IWebController
 {
     @Getter private @NotNull final Collection<IWebHandler> registeredWebHandlers;
+    private Javalin server;
 
     @Getter private ErisWebsite erisInstance;
 
-    private boolean loaded;
+    @Getter private @NotNull State state;
 
     public WebController() {
         this.registeredWebHandlers = new ArrayList<>();
+        this.state = State.STOPPED;
     }
 
     public void load(@NotNull ErisWebsite erisInstance) {
         this.erisInstance = erisInstance;
-        this.loaded = true;
+        this.state = State.LOADING;
 
-        for (WebRoute route : WebRoute.values()) {
-            registerWebHandler(route.getHandler());
+        this.server = Javalin.create((config) ->  {
+            config.staticFiles.add("/web", Location.CLASSPATH);
+        });
+        for (WebRoute webRoute : WebRoute.values()) {
+            registerWebHandler(webRoute.getHandler());
         }
+        this.state = State.LOADED;
     }
 
     @Override
     public void registerWebHandler(@NotNull IWebHandler handler) {
-        ValidateThat.isTrue(loaded, new WebNotLoadedYetException());
+        ValidateThat.notNull(this.server, new WebNotLoadedYetException());
 
         this.registeredWebHandlers.add(handler);
+        handler.register(server);
+    }
+
+    public void start(short webServerPort) {
+        ValidateThat.notNull(this.server, new WebNotLoadedYetException());
+
+        this.state = State.STARTING;
+        this.server.start(webServerPort);
+        this.state = State.STARTED;
     }
 
     public @Nullable IWebHandler findWebHandler(@NotNull String route) {
@@ -54,38 +66,11 @@ public class WebController implements IWebController
         return null;
     }
 
-    public @NotNull IWebResponse handleUnfoundedRequestedPage(@NotNull HttpExchange exchange) {
-        return WebRoute.PAGE_NOT_FOUND.getHandler().handleExchange(exchange);
-    }
+    public void stop() {
+        ValidateThat.notNull(this.server, new WebNotLoadedYetException());
 
-    private @NotNull IWebResponse processExchange(@NotNull HttpExchange exchange) {
-        String requestRoute = RouteUtil.simplify(exchange.getRequestURI().getPath());
-        IWebHandler webHandler = findWebHandler(requestRoute);
-        IWebResponse response;
-
-        if (webHandler == null) {
-            response = handleUnfoundedRequestedPage(exchange);
-            response.setCode(IWebResponse.Code.NOT_FOUND);
-        } else {
-            response = webHandler.handleExchange(exchange);
-        }
-        return response;
-    }
-
-    private void reply(@NotNull HttpExchange exchange, @NotNull IWebResponse response) throws IOException {
-        exchange.sendResponseHeaders(response.getCode().code(), response.getMessageLength());
-        OutputStream outputStream = exchange.getResponseBody();
-        outputStream.write(response.getMessageBytes());
-        outputStream.close();
-    }
-
-    @Override
-    public void handle(HttpExchange exchange) throws IOException {
-        ValidateThat.notNull(exchange, "HttpExchange cannot be null");
-
-        String requestRoute = exchange.getRequestURI().getPath();
-        LoggerController.DEFAULT.infof("{WebController} - Request to '%s' from '%s'\n", requestRoute, exchange.getRemoteAddress().getAddress().toString());
-        IWebResponse response = processExchange(exchange);
-        reply(exchange, response);
+        this.state = State.STOPPING;
+        this.server.stop();
+        this.state = State.STOPPED;
     }
 }

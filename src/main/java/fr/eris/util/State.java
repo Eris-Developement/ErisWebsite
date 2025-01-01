@@ -1,6 +1,6 @@
-package fr.eris.application;
+package fr.eris.util;
 
-public enum ApplicationState
+public enum State
 {
     LOADING, LOADED,
     STARTING, STARTED,

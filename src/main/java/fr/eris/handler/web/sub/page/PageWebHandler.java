@@ -1,14 +1,12 @@
 package fr.eris.handler.web.sub.page;
 
-import com.sun.net.httpserver.HttpExchange;
 import fr.eris.exception.webhandler.WebPageContentException;
 import fr.eris.placeholder.sub.web.WebPlaceholder;
 import fr.eris.placeholder.sub.web.WebPlaceholderInformation;
-import fr.eris.util.ResourceFileUtil;
 import fr.eris.handler.web.base.BaseWebHandler;
-import fr.eris.handler.web.response.IWebResponse;
-import fr.eris.handler.web.response.WebResponse;
 import fr.eris.util.ValidateThat;
+import io.javalin.Javalin;
+import io.javalin.http.Context;
 import org.jetbrains.annotations.NotNull;
 
 public class PageWebHandler extends BaseWebHandler
@@ -34,13 +32,18 @@ public class PageWebHandler extends BaseWebHandler
     }
 
     @Override
-    public @NotNull IWebResponse handleExchange(@NotNull HttpExchange exchange) {
-        WebPlaceholderInformation information = WebPlaceholderInformation.create(webPageContent, exchange);
+    public void handle(@NotNull Context context) {
+        WebPlaceholderInformation information = WebPlaceholderInformation.create(webPageContent, context);
 
-        return WebResponse.of(IWebResponse.Code.OK, PLACEHOLDER.parse(information));
+        context.html(PLACEHOLDER.parse(information));
     }
 
     public static PageWebHandler create(@NotNull String route, @NotNull PageType pageType, @NotNull String pathToIndexPage) {
         return new PageWebHandler(route, pageType, pathToIndexPage);
+    }
+
+    @Override
+    public void register(@NotNull Javalin server) {
+        server.get(this.getRoute(), this);
     }
 }

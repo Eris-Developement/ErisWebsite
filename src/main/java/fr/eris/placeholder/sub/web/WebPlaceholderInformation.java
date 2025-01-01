@@ -3,6 +3,7 @@ package fr.eris.placeholder.sub.web;
 import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpExchange;
 import fr.eris.placeholder.PlaceholderInformation;
+import io.javalin.http.Context;
 import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 
@@ -10,16 +11,16 @@ import java.net.URI;
 
 public class WebPlaceholderInformation extends PlaceholderInformation
 {
-    @Getter private final @NotNull HttpExchange exchange;
-    @Getter private final @NotNull URI requestURI;
+    @Getter private final @NotNull Context context;
+    @Getter private final @NotNull String requestIp;
 
-    private WebPlaceholderInformation(@NotNull String defaultContent, @NotNull HttpExchange exchange) {
+    private WebPlaceholderInformation(@NotNull String defaultContent, @NotNull Context context) {
         super(defaultContent);
-        this.exchange = exchange;
-        this.requestURI = exchange.getRequestURI();
+        this.context = context;
+        this.requestIp = context.ip();
     }
 
-    public static WebPlaceholderInformation create(@NotNull String defaultContent, @NotNull HttpExchange context) {
+    public static WebPlaceholderInformation create(@NotNull String defaultContent, @NotNull Context context) {
         return new WebPlaceholderInformation(defaultContent, context);
     }
 }

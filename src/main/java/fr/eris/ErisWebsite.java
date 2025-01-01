@@ -1,7 +1,5 @@
 package fr.eris;
 
-import fr.eris.application.ErisWebApplication;
-import fr.eris.application.IErisWebApplication;
 import fr.eris.argument.process.IProcArgument;
 import fr.eris.argument.process.sub.ShortProcArgument;
 import fr.eris.controller.argument.process.ProcessArgumentController;
@@ -20,8 +18,6 @@ import java.io.IOException;
 
 public class ErisWebsite
 {
-    @Getter private IErisWebApplication webApplication;
-
     @Getter private IProcessArgumentController argumentController;
     @Getter private IInputController inputController;
     @Getter private ILoggerController loggerController;
@@ -62,10 +58,6 @@ public class ErisWebsite
         webController.load(this);
         LoggerController.DEFAULT.info("Web application successfully loaded.");
 
-        webApplication = new ErisWebApplication();
-        webApplication.load(this, webController);
-        LoggerController.DEFAULT.info("Web application successfully loaded.");
-
         commandController = new CommandController();
         commandController.load(this);
         LoggerController.DEFAULT.info("Command system successfully loaded.");
@@ -73,14 +65,14 @@ public class ErisWebsite
         LoggerController.DEFAULT.info("Finish loading of ErisWebsite !");
     }
 
-    public void start() throws IOException {
-        webApplication.start(argumentController.getArgumentValue(WEB_SERVER_PORT_ARGUMENT));
+    public void start() {
+        webController.start(argumentController.getArgumentValue(WEB_SERVER_PORT_ARGUMENT));
 
         inputController.listen();
     }
 
     public void stop() throws IOException {
-        webApplication.stop();
+        webController.stop();
         loggerController.close();
         inputController.close();
     }

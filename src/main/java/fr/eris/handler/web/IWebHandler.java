@@ -1,13 +1,16 @@
 package fr.eris.handler.web;
 
-import com.sun.net.httpserver.HttpExchange;
-import fr.eris.handler.web.response.IWebResponse;
+import io.javalin.Javalin;
+import io.javalin.http.Context;
+import io.javalin.http.Handler;
 import org.jetbrains.annotations.NotNull;
 
-public interface IWebHandler
+public interface IWebHandler extends Handler
 {
     @NotNull String getRoute();
     boolean matchRoute(@NotNull String route);
 
-    @NotNull IWebResponse handleExchange(@NotNull HttpExchange exchange);
+    void handle(@NotNull Context context);
+
+    void register(@NotNull Javalin server);
 }

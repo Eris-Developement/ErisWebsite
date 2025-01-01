@@ -48,7 +48,7 @@ public class HtmlFileParser
         html = matcher.appendTail(finalHtml).toString();
 
         /* IMG */
-
+        /*
         finalHtml.setLength(0);
         matcher = IMG_PATTERN.matcher(html);
         while (matcher.find()) {
@@ -60,7 +60,7 @@ public class HtmlFileParser
             String base64Src = "data:image/png;base64," + base64Image;
             matcher.appendReplacement(finalHtml, Matcher.quoteReplacement("<img src=\"" + base64Src + "\" />"));
         }
-
+        */
         return matcher.appendTail(finalHtml).toString();
     }
 }
