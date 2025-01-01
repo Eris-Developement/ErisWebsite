@@ -12,6 +12,12 @@ This project will also be used as portfolio and api for future project.
 
 ## TODO
 
+#### Switch to Javalin:
+```
+Switch the project from using HttpClient to Javalin.
+(IWebHandler, IWebController)
+```
+
 #### User management:
 ```
 Secured authentification key. (Used in cookie)
