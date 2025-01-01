@@ -27,7 +27,6 @@ public class PageWebHandler extends BaseWebHandler
 
     private @NotNull String loadPageContent(@NotNull PageType pageType, @NotNull String pathToIndexPage) {
         String webPageContent = ResourceFileUtil.getFileContent(pathToIndexPage);
-        ValidateThat.notNull(webPageContent, new WebPageContentException(webPageContent));
 
         ValidateThat.notNull(webPageContent, new WebPageContentException(pathToIndexPage));
         return pageType.condense(webPageContent);
