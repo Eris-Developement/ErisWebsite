@@ -1,18 +1,15 @@
 package fr.eris.placeholder.sub.web;
 
-import com.sun.net.httpserver.HttpContext;
-import com.sun.net.httpserver.HttpExchange;
 import fr.eris.placeholder.PlaceholderInformation;
 import io.javalin.http.Context;
 import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 
-import java.net.URI;
-
+@Getter
 public class WebPlaceholderInformation extends PlaceholderInformation
 {
-    @Getter private final @NotNull Context context;
-    @Getter private final @NotNull String requestIp;
+    private final @NotNull Context context;
+    private final @NotNull String requestIp;
 
     private WebPlaceholderInformation(@NotNull String defaultContent, @NotNull Context context) {
         super(defaultContent);

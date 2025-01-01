@@ -40,7 +40,7 @@ public class ResourceFileUtil
 
     public static byte[] getFileBytes(String path) {
         try (InputStream stream = getStream(path);
-             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();) {
+             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream()) {
 
             byte[] buffer = new byte[1024];
             int bytesRead;

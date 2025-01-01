@@ -32,9 +32,7 @@ public class WebController implements IWebController
         this.erisInstance = erisInstance;
         this.state = State.LOADING;
 
-        this.server = Javalin.create((config) ->  {
-            config.staticFiles.add("/web", Location.CLASSPATH);
-        });
+        this.server = Javalin.create((config) -> config.staticFiles.add("/web", Location.CLASSPATH));
         for (WebRoute webRoute : WebRoute.values()) {
             registerWebHandler(webRoute.getHandler());
         }
