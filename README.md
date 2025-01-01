@@ -57,9 +57,6 @@ Indicate that a feature has been removed from the project. (Should explain why)
 ### FIX:
 Indicate that a feature was fixed. (Should explain what the issue was and how the fix happened)
 
-### EDIT:
-Indicate that a feature has been edited. (Should explain why and how)
-
 ## License
 
 License used for this project is the following one: [ [MIT](https://choosealicense.com/licenses/mit/) ]
