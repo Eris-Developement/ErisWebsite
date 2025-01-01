@@ -4,6 +4,7 @@ import fr.eris.exception.webhandler.WebPageContentException;
 import fr.eris.placeholder.sub.web.WebPlaceholder;
 import fr.eris.placeholder.sub.web.WebPlaceholderInformation;
 import fr.eris.handler.web.base.BaseWebHandler;
+import fr.eris.util.ResourceFileUtil;
 import fr.eris.util.ValidateThat;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
@@ -25,7 +26,8 @@ public class PageWebHandler extends BaseWebHandler
     }
 
     private @NotNull String loadPageContent(@NotNull PageType pageType, @NotNull String pathToIndexPage) {
-        String webPageContent = HtmlFileParser.getHtmlFile(pathToIndexPage);
+        String webPageContent = ResourceFileUtil.getFileContent(pathToIndexPage);
+        ValidateThat.notNull(webPageContent, new WebPageContentException(webPageContent));
 
         ValidateThat.notNull(webPageContent, new WebPageContentException(pathToIndexPage));
         return pageType.condense(webPageContent);
