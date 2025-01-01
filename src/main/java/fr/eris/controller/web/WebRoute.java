@@ -10,9 +10,9 @@ import static fr.eris.handler.web.sub.page.PageType.*;
 @Getter
 public enum WebRoute
 {
-    PAGE_NOT_FOUND(PageWebHandler.create("/page_not_found", HTML, "page_not_found.html")),
-    ROOT(PageWebHandler.create("/", HTML, "index.html")),
-    OTHER(PageWebHandler.create("/other", HTML, "other.html"));
+    PAGE_NOT_FOUND(PageWebHandler.create("/page_not_found", HTML, "web/page_not_found.html")),
+    ROOT(PageWebHandler.create("/", HTML, "web/index.html")),
+    OTHER(PageWebHandler.create("/other", HTML, "web/other.html"));
 
     @NotNull private final IWebHandler handler;
 
